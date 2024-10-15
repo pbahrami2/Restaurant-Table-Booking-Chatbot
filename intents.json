@@ -1,0 +1,187 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Good day",
+                "Hey there",
+                "Yo"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! How can I assist you?",
+                "Greetings! How may I help you?"
+            ]
+        },
+        {
+            "tag": "make_reservation",
+            "patterns": [
+                "I want to book a table",
+                "Can I get a reservation for dinner?",
+                "I need to make a reservation",
+                "Book a table for two",
+                "Reserve a spot for me",
+                "I'd like to make a reservation at you restaurant",
+                "Can I make a reservation at your restaurant"
+            ],
+            "responses": [
+                "Sure, I can help with that. How many people are you booking for?",
+                "Certainly! What date and time are you looking at for your reservation?"
+            ]
+        },
+        {
+            "tag": "cancel_reservation",
+            "patterns": [
+                "Cancel my reservation",
+                "I need to cancel my booking",
+                "I can't come, cancel my table"
+            ],
+            "responses": [
+                "I can assist with that. Could you please provide your booking name?",
+                "Sure thing, I'll need some details to find your reservation."
+            ]
+        },
+        {
+            "tag": "modify_reservation",
+            "patterns": [
+                "Change my reservation time",
+                "Can I modify my booking?",
+                "I need to change the date of my reservation",
+                "I need to modify my reservation please"
+            ],
+            "responses": [
+                "I'd be happy to help with that. What changes do you need to make?",
+                "Sure, please tell me what you'd like to change in your booking."
+            ]
+        },
+        {
+            "tag": "view_reservations",
+            "patterns": [
+                "Can I see my reservation?",
+                "Can i view my reservation?",
+                "Show my booking",
+                "List my reservation",
+                "What is my upcoming reservation?"
+            ],
+            "responses": ["Here is your reservation:"]
+        },
+
+        {
+            "tag": "menu_inquiry",
+            "patterns": [
+                "Can I see the menu?",
+                "What dishes do you serve?",
+                "Do you have vegan options?"
+            ],
+            "responses": [
+                "Sure, I can send you our menu. We have a variety of dishes including vegetarian and vegan options.",
+                "Our menu includes a range of international cuisines, including vegan and gluten-free options."
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Goodbye",
+                "That's all, thanks",
+                "No more questions",
+                "Bye"
+            ],
+            "responses": [
+                "Goodbye! Let me know if there's anything else I can help with.",
+                "Thank you for using our service. Have a great day!"
+            ]
+        },
+
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "How are you?",
+                "How you?",
+                "How's it going?", 
+                "What's up?",
+                "How have you been?",
+                "How do you feel?",
+                "How you doing?"
+            ],
+            "responses": [
+                "I'm a chatbot, so I don't have feelings, but thanks for asking!",
+                "As a bot, I don't experience emotions, but I'm here to help you!",
+                "I'm doing well, as much as an AI can. How can I assist you?"
+            ]
+        },
+
+        {
+            "tag": "what_can_you_do",
+            "patterns": [
+                "What can you do?", 
+                "What are you able to do",
+                "What can you do for me?",
+                "Tell me your functions", 
+                "What are your capabilities?", 
+                "How can you assist me?", 
+                "What help can you provide?"
+            ],
+            "responses":[
+                "I can assist you with restaurant bookings, including making, modifying, viewing or cancelling reservations. I can also answer trivia questions, and questions related to the restaurant!", 
+                "I'm here to help with all your restaurant booking needs, whether it's making a new reservation, changing an existing one, or getting information about restaurants. Ask me trivia questions if you'd like also!",
+                "My main function is to assist you in booking restaurants effortlessly, and also answer trivia questions. Just let me know what you need, and I'll handle the rest!"
+        ]
+        },
+
+        {
+            "tag": "name_query",
+            "patterns": [
+                "What is my name?",
+                "Do you know my name?",
+                "Can you tell me my name?",
+                "What's my name?",
+                "Do you remember my name?"
+            ],
+            "responses":[
+                "Your name is {detected_name}.",
+                "I believe your name is {detected_name}.",
+                "{detected_name}, that's your name."
+                
+        ]
+        },
+
+        {
+            "tag": "compliment",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Much appreciated",
+                "Thank you so much for your service"
+            ],
+            "responses":[
+                "Thank you! I'm here to provide the best service I can.",
+                "That's very kind of you to say! How else can I assist you today?",
+                "I appreciate your compliment! Let me know if there's more I can do for you."
+                
+        ]
+        },
+
+        {
+            "tag": "acknowledgment",
+            "patterns": [
+                "Ok",
+                "Alright",
+                "Got it",
+                "Sure",
+                "Okay"
+            ],
+            "responses": [
+                "Great, let's continue.",
+                "Alright, what would you like to do next?",
+                "Okay, is there anything else I can help with?",
+                "Sure, how can I further assist you?"
+            ]
+        }
+
+
+
+
+    ]
+}
